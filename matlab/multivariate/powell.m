@@ -10,7 +10,6 @@ X = {[200,-180]};
 U = [1 0;0 1];
 iter = 1;
 accum_it = 0;
-t_sol = 0;
 start = tic;
 while true 
     %% Stopping criterion : Length of two recent point   
