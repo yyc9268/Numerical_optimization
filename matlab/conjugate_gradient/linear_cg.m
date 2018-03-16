@@ -9,8 +9,9 @@ pt = start_pt;
 
 %% Define A as hessian matrix
 H_val = my_hessian(f, pt);
+disp(H_val);
 %% When hessian is not positive
-if H_val == 0 | check_positive(H_val) == false
+if H_val == 0 | all(H_val(:)>=0) == false
     A = [10 1;1 5];
 else
     A = H_val;
