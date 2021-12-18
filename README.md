@@ -11,7 +11,7 @@ This repository contains implementation of several optimization methods.<br/>
 ```
 C++ and MATLAB
 ```
-This code was written in MATLAB2014a
+The code was written in MATLAB2014a
 
 ## Contents
 
@@ -36,8 +36,3 @@ This code was written in MATLAB2014a
 - Least square methods
   - Gauss-Newton
   - Levenberg-Marquardt
-  
-## Acknowledgement
-
-There are a few missing codes(function) and input files(excel file).<br/>
-It would be updated soon.
